@@ -18,8 +18,9 @@
     <head>
         <sly data-sly-include="partials/head.html" data-sly-unwrap/>
         <sly data-sly-include="partials/headlibs.html" data-sly-unwrap/>
+        
     </head>
-    <body class="page ${currentPage.template.name}">
+    <body class="page ${currentPage.template.name}" id="page-top">
         <sly data-sly-include="partials/main.html" data-sly-unwrap/>
         <sly data-sly-include="partials/footlibs.html" data-sly-unwrap/>
     </body>
