@@ -3,3 +3,5 @@ bootstrap.min.css
 animate.min.css
 creative.css
 font-awesome.css
+custom.css
+custom-edit.css

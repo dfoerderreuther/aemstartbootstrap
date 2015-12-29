@@ -20,6 +20,8 @@ use(function () {
     var currentYear = Calendar.getInstance().get(Calendar.YEAR);
 
     return {
-        year: currentYear
+        year: currentYear, 
+        currentPage: currentPage, 
+        test: 'lalal'
     };
 });

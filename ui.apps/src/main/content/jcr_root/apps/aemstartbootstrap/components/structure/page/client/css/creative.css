@@ -13,7 +13,6 @@ body {
 body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
-
 hr {
     max-width: 50px;
     border-color: #f05f40;
@@ -178,7 +177,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(/content/dam/aemstartbootstrap/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
