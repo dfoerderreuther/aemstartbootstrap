@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/startbootstrap.iml" filepath="$PROJECT_DIR$/startbootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/startbootstrap.core.iml" filepath="$PROJECT_DIR$/core/startbootstrap.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/it.launcher/startbootstrap.it.launcher.iml" filepath="$PROJECT_DIR$/it.launcher/startbootstrap.it.launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/it.tests/startbootstrap.it.tests.iml" filepath="$PROJECT_DIR$/it.tests/startbootstrap.it.tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.apps/startbootstrap.ui.apps.iml" filepath="$PROJECT_DIR$/ui.apps/startbootstrap.ui.apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.content/startbootstrap.ui.content.iml" filepath="$PROJECT_DIR$/ui.content/startbootstrap.ui.content.iml" />
+    </modules>
+  </component>
+</project>

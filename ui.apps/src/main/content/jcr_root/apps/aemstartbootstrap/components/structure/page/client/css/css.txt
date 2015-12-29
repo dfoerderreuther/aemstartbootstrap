@@ -2,3 +2,4 @@
 bootstrap.min.css
 animate.min.css
 creative.css
+font-awesome.css
