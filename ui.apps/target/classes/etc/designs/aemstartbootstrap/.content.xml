@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2015-12-29T23:19:27.895+01:00"
+        cq:lastModified="{Date}2015-12-30T14:15:47.167+01:00"
         cq:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         jcr:title="AEM StartBootstrap Site Design"
@@ -40,6 +40,15 @@
                         <section jcr:primaryType="nt:unstructured"/>
                     </primary_par>
                 </header>
+                <pictotexts jcr:primaryType="nt:unstructured">
+                    <pictotexts_par
+                        jcr:lastModified="{Date}2015-12-30T14:15:47.163+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        components="/apps/aemstartbootstrap/components/content/pictotext">
+                        <section jcr:primaryType="nt:unstructured"/>
+                    </pictotexts_par>
+                </pictotexts>
             </par>
             <logo
                 jcr:primaryType="nt:unstructured"
