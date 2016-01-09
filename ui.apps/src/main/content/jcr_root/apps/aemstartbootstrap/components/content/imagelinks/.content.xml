@@ -3,4 +3,5 @@
     jcr:description="A section with image links"
     jcr:primaryType="cq:Component"
     jcr:title="Image Links Section"
+    allowedChilds="[imagelink]"
     componentGroup="Startbootstrap Section"/>
