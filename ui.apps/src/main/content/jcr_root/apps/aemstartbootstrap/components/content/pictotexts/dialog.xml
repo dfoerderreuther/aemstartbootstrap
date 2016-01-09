@@ -16,6 +16,12 @@
                         fieldLabel="Navigation name"
                         name="./name"
                         xtype="textfield"/>
+                    <text
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Text"
+                        name="./text"
+                        type="richtext"
+                        xtype="richtext" />
                 </items>
             </tab1>
         </items>

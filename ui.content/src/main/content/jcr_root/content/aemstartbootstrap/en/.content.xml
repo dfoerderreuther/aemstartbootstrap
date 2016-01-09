@@ -2,71 +2,103 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2016-01-01T10:42:54.249+01:00"
+        cq:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         jcr:title="English"
         sling:resourceType="aemstartbootstrap/components/structure/page"
         pageTitle="New Project">
-        <logo
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="aemstartbootstrap/components/structure/logo"/>
-        <title
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="aemstartbootstrap/components/content/title"/>
-        <topnav
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="aemstartbootstrap/components/structure/topnav"/>
         <par
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/parsys">
-            <title_0
+            <header
+                jcr:created="{Date}2015-12-29T18:10:45.578+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-12-29T23:22:50.859+01:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                jcr:title="Service Component"
-                sling:resourceType="aemstartbootstrap/components/content/title"
-                type="h2"/>
-            <servicecomponent
+                sling:resourceType="aemstartbootstrap/components/content/header"
+                name="Start">
+                <primary_par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <title
+                        jcr:created="{Date}2015-12-29T23:19:40.683+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-12-29T23:21:57.388+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="My English Page"
+                        sling:resourceType="wcm/foundation/components/title"/>
+                </primary_par>
+            </header>
+            <freetext
+                jcr:created="{Date}2015-12-29T17:51:32.742+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-12-29T17:51:32.742+01:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemstartbootstrap/components/content/helloworld"/>
-            <title_1
+                sling:resourceType="aemstartbootstrap/components/content/freetext"/>
+            <pictotexts
+                jcr:created="{Date}2015-12-29T17:51:26.540+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-12-31T13:37:43.330+01:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                jcr:title="Lorem ipsum"
-                sling:resourceType="aemstartbootstrap/components/content/title"
-                type="h2"/>
-            <text
+                sling:resourceType="aemstartbootstrap/components/content/pictotexts"
+                name="Portfolio"
+                text="MyText">
+                <pictotexts_par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <pictotext
+                        jcr:created="{Date}2015-12-30T14:16:20.017+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-12-30T15:36:00.978+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/pictotext"
+                        icon="linkedin"/>
+                    <pictotext_1113476384
+                        jcr:created="{Date}2015-12-30T14:16:24.302+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-12-30T15:36:15.016+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/pictotext"
+                        icon="film"/>
+                    <pictotext_1971662355
+                        jcr:created="{Date}2015-12-30T14:16:28.651+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-12-30T15:36:24.779+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/pictotext"
+                        icon="qrcode"/>
+                </pictotexts_par>
+            </pictotexts>
+            <imagelinks
+                jcr:created="{Date}2015-12-29T17:51:35.749+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-12-29T17:51:35.749+01:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemstartbootstrap/components/content/text"
-                text="&lt;p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p>"
-                textIsRich="true"/>
-            <colctrl
+                sling:resourceType="aemstartbootstrap/components/content/imagelinks"/>
+            <colcontent
+                jcr:created="{Date}2015-12-29T17:51:43.611+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-12-29T17:51:43.611+01:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemstartbootstrap/components/content/colctrl"
-                controlType="start"
-                layout="2;cq-colctrl-lt0"/>
-            <text_0
+                sling:resourceType="aemstartbootstrap/components/content/colcontent"/>
+            <freetext_1354115471
+                jcr:created="{Date}2015-12-29T17:51:52.041+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-01-01T10:42:54.247+01:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemstartbootstrap/components/content/text"
-                text="&lt;p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.&lt;/p>&#xa;&lt;p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.&lt;/p>&#xa;&lt;p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.&lt;/p>"
-                textIsRich="true"/>
-            <col_break14029137700350
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemstartbootstrap/components/content/colctrl"
-                controlType="break"/>
-            <text_1
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemstartbootstrap/components/content/text"
-                text="&lt;p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.&lt;/p>&#xa;&lt;p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.&lt;/p>"
-                textIsRich="true"/>
-            <col_end14029137700351
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemstartbootstrap/components/content/colctrl"
-                controlType="end"/>
-            <image_1
-                jcr:created="{Date}2015-01-01T00:00:00.000Z"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemstartbootstrap/components/content/image"
-                fileReference="/content/dam/aemstartbootstrap/asset.jpg"/>
+                sling:resourceType="aemstartbootstrap/components/content/freetext"
+                name="Footer"/>
         </par>
-        <image jcr:primaryType="nt:unstructured">
-            <file/>
-        </image>
     </jcr:content>
 </jcr:root>
