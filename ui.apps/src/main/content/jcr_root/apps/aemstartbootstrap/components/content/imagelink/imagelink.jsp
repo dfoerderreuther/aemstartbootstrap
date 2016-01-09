@@ -12,7 +12,7 @@
         <% if (image.hasContent()) { %>
         	<% image.draw(out); %>
         <% } else { %>
-        	<img src="/content/dam/aemstartbootstrap/portfolio/1.jpg" class="img-responsive" alt="">
+        	<img src="/content/dam/aemstartbootstrap/portfolio/imagelink_example.jpg" class="img-responsive" alt="">
         <% } %>
         <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">

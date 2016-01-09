@@ -66,12 +66,6 @@
                         fieldLabel="Alt Text"
                         name="./image/alt"
                         xtype="textfield"/>
-                    <linkURL
-                        jcr:primaryType="cq:Widget"
-                        fieldDescription="Drop files or pages from the Content Finder"
-                        fieldLabel="Link to"
-                        name="./image/linkURL"
-                        xtype="pathfield"/>
                     <description
                         jcr:primaryType="cq:Widget"
                         fieldLabel="Description"

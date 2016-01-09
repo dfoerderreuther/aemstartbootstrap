@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2016-01-10T00:09:43.128+01:00"
+        cq:lastModified="{Date}2016-01-10T00:32:16.516+01:00"
         cq:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         jcr:title="English"
@@ -25,7 +25,7 @@
                     <title
                         jcr:created="{Date}2015-12-29T23:19:40.683+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2015-12-29T23:21:57.388+01:00"
+                        jcr:lastModified="{Date}2016-01-10T00:32:16.513+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="My English Page"
@@ -105,12 +105,21 @@
                     <imagelink
                         jcr:created="{Date}2016-01-09T22:24:31.719+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2016-01-09T23:28:18.714+01:00"
+                        jcr:lastModified="{Date}2016-01-10T00:29:58.531+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="aemstartbootstrap/components/content/imagelink"
                         category="Category A"
-                        name="Name A"/>
+                        name="Name A">
+                        <image
+                            jcr:lastModified="{Date}2016-01-10T00:29:58.531+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            imageRotate="0">
+                            <file/>
+                        </image>
+                    </imagelink>
                     <imagelink_893091711
                         jcr:created="{Date}2016-01-09T22:56:48.212+01:00"
                         jcr:createdBy="admin"
