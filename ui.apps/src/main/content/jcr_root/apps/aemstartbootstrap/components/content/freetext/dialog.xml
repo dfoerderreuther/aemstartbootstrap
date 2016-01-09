@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Dialog"
     title="Section"
     xtype="dialog">
@@ -16,6 +16,27 @@
                         fieldLabel="Navigation name"
                         name="./name"
                         xtype="textfield"/>
+                    <cssclass
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Block CSS-Class"
+                        name="./cssclass"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <empty
+                                jcr:primaryType="nt:unstructured"
+                                text="empty"
+                                value=""/>
+                            <primary
+                                jcr:primaryType="nt:unstructured"
+                                text="primary"
+                                value="bg-primary"/>
+                            <dark
+                                jcr:primaryType="nt:unstructured"
+                                text="dark"
+                                value="bg-dark"/>
+                        </options>
+                    </cssclass>
                 </items>
             </tab1>
         </items>

@@ -1,8 +1,9 @@
-    <section id="services">
+    <section id="services" class="${properties.cssclass}">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center" data-sly-text="${properties.text @ context='html'}">
-                    <h2 class="section-heading">Picto Texts</h2>
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading" data-sly-text="${properties.heading}">Picto Texts</h2>
+                    <div data-sly-text="${properties.text @ context='html'}" data-sly-unwrap></div>
                     <hr class="primary">
                 </div>
             </div>

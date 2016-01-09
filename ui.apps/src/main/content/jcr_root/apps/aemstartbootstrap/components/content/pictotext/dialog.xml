@@ -2397,7 +2397,7 @@
                         fieldLabel="Text"
                         name="./text"
                         type="richtext"
-                        xtype="richtext" />
+                        xtype="richtext"/>
                 </items>
             </tab1>
         </items>

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2016-01-01T10:42:54.249+01:00"
+        cq:lastModified="{Date}2016-01-09T11:37:52.338+01:00"
         cq:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         jcr:title="English"
@@ -35,70 +35,118 @@
             <freetext
                 jcr:created="{Date}2015-12-29T17:51:32.742+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2015-12-29T17:51:32.742+01:00"
+                jcr:lastModified="{Date}2016-01-09T11:12:29.390+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemstartbootstrap/components/content/freetext"/>
+                sling:resourceType="aemstartbootstrap/components/content/freetext"
+                cssclass="bg-primary"/>
             <pictotexts
                 jcr:created="{Date}2015-12-29T17:51:26.540+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2015-12-31T13:37:43.330+01:00"
+                jcr:lastModified="{Date}2016-01-09T11:11:17.115+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aemstartbootstrap/components/content/pictotexts"
+                heading="My Portfolio"
                 name="Portfolio"
-                text="MyText">
+                text="&lt;p>My Portfolio overview. Followed by some blocks!&lt;/p>&#xa;">
                 <pictotexts_par
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="foundation/components/parsys">
                     <pictotext
                         jcr:created="{Date}2015-12-30T14:16:20.017+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2015-12-30T15:36:00.978+01:00"
+                        jcr:lastModified="{Date}2016-01-09T10:22:36.587+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="aemstartbootstrap/components/content/pictotext"
-                        icon="linkedin"/>
+                        icon="linkedin"
+                        text="&lt;p>This is my first block&lt;/p>&#xa;"/>
                     <pictotext_1113476384
                         jcr:created="{Date}2015-12-30T14:16:24.302+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2015-12-30T15:36:15.016+01:00"
+                        jcr:lastModified="{Date}2016-01-09T10:22:52.272+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="aemstartbootstrap/components/content/pictotext"
-                        icon="film"/>
+                        icon="film"
+                        text="&lt;p>This is my second block&lt;/p>&#xa;"/>
                     <pictotext_1971662355
                         jcr:created="{Date}2015-12-30T14:16:28.651+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2015-12-30T15:36:24.779+01:00"
+                        jcr:lastModified="{Date}2016-01-09T10:23:04.491+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="aemstartbootstrap/components/content/pictotext"
-                        icon="qrcode"/>
+                        icon="qrcode"
+                        text="&lt;p>This is my third block&lt;/p>&#xa;"/>
+                    <pictotext_215688627
+                        jcr:created="{Date}2016-01-09T10:34:31.881+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-09T10:34:55.092+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/pictotext"
+                        icon="star"
+                        text="&lt;p>This is my fourth text&lt;/p>&#xa;"/>
                 </pictotexts_par>
             </pictotexts>
             <imagelinks
                 jcr:created="{Date}2015-12-29T17:51:35.749+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2015-12-29T17:51:35.749+01:00"
+                jcr:lastModified="{Date}2016-01-09T11:01:50.805+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemstartbootstrap/components/content/imagelinks"/>
-            <colcontent
-                jcr:created="{Date}2015-12-29T17:51:43.611+01:00"
+                sling:resourceType="aemstartbootstrap/components/content/imagelinks"
+                name="Sample Images"/>
+            <pictotexts_74383366
+                jcr:created="{Date}2016-01-09T11:19:08.233+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2015-12-29T17:51:43.611+01:00"
+                jcr:lastModified="{Date}2016-01-09T11:19:34.227+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemstartbootstrap/components/content/colcontent"/>
+                sling:resourceType="aemstartbootstrap/components/content/pictotexts"
+                heading="Lets get in Contact"
+                name="Contact">
+                <pictotexts_par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <pictotext
+                        jcr:created="{Date}2016-01-09T11:21:47.491+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-09T11:23:43.114+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/pictotext"
+                        icon="mobile-phone"
+                        text="&lt;p>++49 89 1234567890&lt;/p>&#xa;"/>
+                    <pictotext_720750330
+                        jcr:created="{Date}2016-01-09T11:21:53.666+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-09T11:24:55.892+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/pictotext"
+                        icon="mail-reply"
+                        text="&lt;p>Street 3423&lt;/p>&#xa;"/>
+                </pictotexts_par>
+            </pictotexts_74383366>
             <freetext_1354115471
                 jcr:created="{Date}2015-12-29T17:51:52.041+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-01-01T10:42:54.247+01:00"
+                jcr:lastModified="{Date}2016-01-09T11:37:46.047+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aemstartbootstrap/components/content/freetext"
+                cssclass="bg-dark"
                 name="Footer"/>
+            <pictotext
+                jcr:created="{Date}2016-01-09T11:16:03.341+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-01-09T11:16:03.341+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemstartbootstrap/components/content/pictotext"/>
         </par>
     </jcr:content>
 </jcr:root>
