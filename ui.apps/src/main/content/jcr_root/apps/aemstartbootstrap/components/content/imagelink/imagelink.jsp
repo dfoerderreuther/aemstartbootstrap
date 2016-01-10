@@ -5,7 +5,6 @@
     Image image = new Image(resource, "image");
     image.setSelector(".img");
     image.addCssClass("img-responsive");
-    String imageHeight = image.get(image.getItemName(Image.PN_HEIGHT));
     %>
 
     <a href="<%= properties.get("link", "#") %>" class="portfolio-box">

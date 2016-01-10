@@ -16,15 +16,56 @@
                         fieldLabel="Navigation name"
                         name="./name"
                         xtype="textfield"/>
-                    <img
-                        jcr:primaryType="cq:Widget"
-                        fileNameParameter="./imageName"
-                        fileReferenceParameter="./imageReference"
-                        name="./image"
-                        title="Image"
-                        xtype="html5smartimage"/>
                 </items>
             </tab1>
+            <tab2
+                jcr:primaryType="cq:Widget"
+                cropParameter="./image/imageCrop"
+                ddGroups="[media]"
+                fileNameParameter="./image/fileName"
+                fileReferenceParameter="./image/fileReference"
+                mapParameter="./image/imageMap"
+                name="./image/file"
+                requestSuffix="/image.img.png"
+                rotateParameter="./image/imageRotate"
+                sizeLimit="100"
+                title="Image"
+                xtype="html5smartimage"/>
+            <tab3
+                jcr:primaryType="cq:Widget"
+                title="Advanced Image Properties"
+                xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <title
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Title"
+                        name="./image/jcr:title"
+                        xtype="textfield"/>
+                    <alt
+                        jcr:primaryType="cq:Widget"
+                        fieldDescription="(leave empty to use the title defined above)"
+                        fieldLabel="Alt Text"
+                        name="./image/alt"
+                        xtype="textfield"/>
+                    <description
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Description"
+                        name="./image/jcr:description"
+                        xtype="textarea"/>
+                    <size
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Size"
+                        heightParameter="./image/height"
+                        widthParameter="./image/width"
+                        xtype="sizefield"/>
+                    <resType
+                        jcr:primaryType="cq:Widget"
+                        ignoreData="{Boolean}true"
+                        name="./image/sling:resourceType"
+                        value="foundation/components/image"
+                        xtype="hidden"/>
+                </items>
+            </tab3>
         </items>
     </items>
 </jcr:root>
