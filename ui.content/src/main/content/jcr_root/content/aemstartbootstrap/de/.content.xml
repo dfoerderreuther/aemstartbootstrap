@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[[]]"
+        cq:lastModified="{Date}2016-01-10T01:20:45.702+01:00"
+        cq:lastModifiedBy="admin"
+        jcr:lastModified="{Date}2016-01-10T01:10:41.337+01:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Deutsch"
+        sling:resourceType="aemstartbootstrap/components/structure/page"
+        pageTitle="New Project">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <header
+                jcr:created="{Date}2015-12-29T18:10:45.578+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-01-10T01:13:18.013+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemstartbootstrap/components/content/header"
+                name="Start">
+                <primary_par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <title
+                        jcr:created="{Date}2015-12-29T23:19:40.683+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-10T01:12:46.463+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Meine deutsche Seite"
+                        sling:resourceType="wcm/foundation/components/title"/>
+                </primary_par>
+                <image
+                    jcr:lastModified="{Date}2016-01-10T01:13:18.013+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    imageRotate="0">
+                    <file/>
+                </image>
+            </header>
+            <freetext
+                jcr:created="{Date}2015-12-29T17:51:32.742+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-01-10T01:20:45.698+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemstartbootstrap/components/content/freetext"
+                cssclass="bg-primary">
+                <primary_par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <title
+                        jcr:created="{Date}2016-01-10T01:15:44.793+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-10T01:20:39.258+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Hier steht was auf orangem Grund"
+                        sling:resourceType="wcm/foundation/components/title"/>
+                </primary_par>
+            </freetext>
+            <pictotexts
+                jcr:created="{Date}2015-12-29T17:51:26.540+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-01-10T01:16:38.817+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemstartbootstrap/components/content/pictotexts"
+                heading="Mein Portfolio"
+                name="Portfolio"
+                text="&lt;p>Mein Portfolio überblick. Gefolgt von ein paar Blocks!&lt;/p>&#xa;">
+                <pictotexts_par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <pictotext
+                        jcr:created="{Date}2015-12-30T14:16:20.017+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-10T01:16:55.882+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/pictotext"
+                        icon="flash"
+                        text="&lt;p>Dies ist mein erster Block&lt;/p>&#xa;"/>
+                    <pictotext_1113476384
+                        jcr:created="{Date}2015-12-30T14:16:24.302+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-10T01:17:10.833+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/pictotext"
+                        icon="film"
+                        text="&lt;p>Dies ist mein zweiter Block&lt;/p>&#xa;"/>
+                    <pictotext_1971662355
+                        jcr:created="{Date}2015-12-30T14:16:28.651+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-10T01:17:24.382+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/pictotext"
+                        icon="qrcode"
+                        text="&lt;p>Dies ist mein dritter Block&lt;/p>&#xa;"/>
+                    <pictotext_215688627
+                        jcr:created="{Date}2016-01-09T10:34:31.881+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-10T01:17:38.829+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/pictotext"
+                        icon="star"
+                        text="&lt;p>Und dies mein vierter Block&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"/>
+                </pictotexts_par>
+            </pictotexts>
+            <imagelinks
+                jcr:created="{Date}2015-12-29T17:51:35.749+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-01-09T11:01:50.805+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemstartbootstrap/components/content/imagelinks"
+                name="Sample Images">
+                <pictotexts_par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <imagelink
+                        jcr:created="{Date}2016-01-09T22:24:31.719+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-10T01:17:46.492+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/imagelink"
+                        category="Kategorie A"
+                        name="Name A">
+                        <image
+                            jcr:lastModified="{Date}2016-01-10T01:17:46.492+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            imageRotate="0">
+                            <file/>
+                        </image>
+                    </imagelink>
+                    <imagelink_893091711
+                        jcr:created="{Date}2016-01-09T22:56:48.212+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-10T01:18:00.159+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/imagelink"
+                        category="Kategorie 2"
+                        name="Name 2">
+                        <image
+                            jcr:lastModified="{Date}2016-01-10T01:18:00.159+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            imageRotate="0">
+                            <file/>
+                        </image>
+                    </imagelink_893091711>
+                    <imagelink_1877685972
+                        jcr:created="{Date}2016-01-09T22:56:51.815+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-10T01:18:13.324+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/imagelink"
+                        category="Kategorie 3"
+                        name="Name 3">
+                        <image
+                            jcr:lastModified="{Date}2016-01-10T01:18:13.324+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            imageRotate="0">
+                            <file/>
+                        </image>
+                    </imagelink_1877685972>
+                    <imagelink_1061989320
+                        jcr:created="{Date}2016-01-09T22:56:54.274+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-10T01:18:24.637+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/imagelink"
+                        category="Kategorie 4"
+                        name="Name 4">
+                        <image
+                            jcr:lastModified="{Date}2016-01-10T01:18:24.637+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            imageRotate="0">
+                            <file/>
+                        </image>
+                    </imagelink_1061989320>
+                    <imagelink_598921903
+                        jcr:created="{Date}2016-01-09T22:56:57.276+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-10T01:18:33.930+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/imagelink"
+                        category="Kategorie 5"
+                        name="Name 5">
+                        <image
+                            jcr:lastModified="{Date}2016-01-10T01:18:33.930+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            imageRotate="0">
+                            <file/>
+                        </image>
+                    </imagelink_598921903>
+                    <imagelink_532418746
+                        jcr:created="{Date}2016-01-09T22:56:57.307+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-10T01:18:46.462+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/imagelink"
+                        category="Kategorie 6"
+                        name="Name 6">
+                        <image
+                            jcr:lastModified="{Date}2016-01-10T01:18:46.462+01:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            imageRotate="0">
+                            <file/>
+                        </image>
+                    </imagelink_532418746>
+                </pictotexts_par>
+            </imagelinks>
+            <pictotexts_74383366
+                jcr:created="{Date}2016-01-09T11:19:08.233+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-01-10T01:18:58.944+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aemstartbootstrap/components/content/pictotexts"
+                heading="Lass uns Kontakt aufnehmen"
+                name="Contact">
+                <pictotexts_par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <pictotext
+                        jcr:created="{Date}2016-01-09T11:21:47.491+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-09T11:23:43.114+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/pictotext"
+                        icon="mobile-phone"
+                        text="&lt;p>++49 89 1234567890&lt;/p>&#xa;"/>
+                    <pictotext_720750330
+                        jcr:created="{Date}2016-01-09T11:21:53.666+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-10T01:19:16.971+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aemstartbootstrap/components/content/pictotext"
+                        icon="mail-reply"
+                        text="&lt;p>Strasse 3423&lt;/p>&#xa;&lt;p>12345 Testenhausen&lt;/p>&#xa;"/>
+                </pictotexts_par>
+            </pictotexts_74383366>
+        </par>
+        <image
+            jcr:lastModified="{Date}2016-01-10T01:10:41.337+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

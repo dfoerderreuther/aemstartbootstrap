@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2016-01-10T00:56:22.282+01:00"
+        cq:lastModified="{Date}2016-01-10T01:21:15.755+01:00"
         cq:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         jcr:title="English"
@@ -47,7 +47,20 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="aemstartbootstrap/components/content/freetext"
-                cssclass="bg-primary"/>
+                cssclass="bg-primary">
+                <primary_par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <title
+                        jcr:created="{Date}2016-01-10T01:20:53.081+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2016-01-10T01:21:15.750+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Text on orange background"
+                        sling:resourceType="wcm/foundation/components/title"/>
+                </primary_par>
+            </freetext>
             <pictotexts
                 jcr:created="{Date}2015-12-29T17:51:26.540+01:00"
                 jcr:createdBy="admin"
@@ -248,22 +261,6 @@
                         text="&lt;p>Street 3423&lt;/p>&#xa;"/>
                 </pictotexts_par>
             </pictotexts_74383366>
-            <freetext_1354115471
-                jcr:created="{Date}2015-12-29T17:51:52.041+01:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-01-09T11:37:46.047+01:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemstartbootstrap/components/content/freetext"
-                cssclass="bg-dark"
-                name="Footer"/>
-            <pictotext
-                jcr:created="{Date}2016-01-09T11:16:03.341+01:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-01-09T11:16:03.341+01:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="aemstartbootstrap/components/content/pictotext"/>
         </par>
     </jcr:content>
 </jcr:root>
